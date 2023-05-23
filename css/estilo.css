@@ -9,7 +9,7 @@
 a,
 a:active {
   text-decoration: none;
-  color: #e8f802;
+  color: rgb(232, 248, 2);
 }
 
 body {
@@ -86,7 +86,6 @@ section .contenedor-imagen {
 }
 /**FIN PAGINA BIOGRAFIA**/
 
-
 /**PAGINA SHOWS**/
 .df-main {
   display: flex;
@@ -125,7 +124,6 @@ section .contenedor-imagen {
   font-size: 19px;
 }
 /**FIN PAGINA SHOWS**/
-
 
 /**PAGINA MUSICA**/
 .df-musica {
@@ -187,7 +185,6 @@ section .contenedor-imagen {
 }
 /**FIN PAGINA MUSICA**/
 
-
 /**PAGINA VIDEO**/
 .bg-video {
   display: flex;
@@ -217,3 +214,34 @@ section .contenedor-imagen {
   transition: all 1s ease;
 }
 /***fin footer***/
+
+/***boostrap***/
+.text-primary {
+  color: #e8f802 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px !important;
+  background-color: #a13333;
+  color: rgb(213, 221, 93);
+  font-weight: 100;
+}
+.text-danger {
+  font-size: 30px;
+}
+.jc-modi {
+  justify-content: center;
+  align-items: center;  
+}
+.c-letra {
+  color: rgb(232, 248, 2) !important;
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+  margin-left: 50px;
+  padding: px;
+  margin-top: 50px;
+}
+.bgcolor {
+  background-color: #a13333 !important;
+}
+

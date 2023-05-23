@@ -1,61 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>shows</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/estilo.css" />
     <link rel="shortcut icon" href="../icon/favicon.ico" type="image/x-icon" />
-    <title>Shows</title>
   </head>
-  <body>
-    <header>
-      <h1>The Doors</h1>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./biografia.html">Biografia</a></li>
-          <li><a href="./musica.html">Musica</a></li>
-          <li><a href="./shows.html">Shows</a></li>
-          <li><a href="./video.html">Video</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="df-main">
-      <section class="conte-1">
-        <div class="cont-banda">
-          <img class="f-imag" src="../imagenes/images.jpg1.jpg" alt="" />
-          <li class="f-c" >13 de febrero 1967 Private Residence – Los Angeles, CA</li>
-          <img
-            class="f-imag"
-            src="../imagenes/gettyimages-85053749-612x612.jpg2.jpg"
-            alt="banda2"
-          />
-          <li class="f-c" >
-            15 de mayo 1966 Turkey Joint West – Santa Monica, CA (Rick & The
-            Ravens)
-          </li>
-          <img
-            class="f-imag"
-            src="../imagenes/gettyimages-515542484-612x612.jpg"
-            alt=""
-          />
-          <li class="f-c" >P.N.E. Coliseum – Vancouver, British Columbia, Canada</li>
-          <img
-            class="f-imag"
-            src="../imagenes/gettyimages-163437127-612x612.jpg"
-            alt=""
-          />
-          <li class="f-c" >Felt Forum – New York, NY</li>
+  <header>
+    <h1 class="text-primary">The Doors</h1>
+    <nav class="navbar navbar-expand-lg jc-modi">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav h-letra">
+            <a class="c-letra nav-link" aria-current="page" href="../index.html"
+              >Inicio</a
+            >
+            <a class="c-letra nav-link" href="./biografia.html">Biografia</a>
+            <a class="c-letra nav-link" href="./musica.html">Musica</a>
+            <a class="c-letra nav-link active" href="#">Shows</a>
+            <a class="c-letra nav-link" href="./video.html">Video</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <section class="row my-5">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide col"
+          data-bs-ride="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../imagenes/gettyimages-163437127-612x612.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-danger">15 de mayo 1966</h5>
+                <p class="text-danger">
+                  Turkey Joint West – Santa Monica, CA (Rick & The Ravens)
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../imagenes/gettyimages-515542484-612x612.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-danger">13 de febrero 1967</h5>
+                <p class="text-danger">Private Residence – Los Angeles, CA.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../imagenes/gettyimages-73991644-612x612.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-danger">23 de julio 1967</h5>
+                <p class="text-danger">
+                  P.N.E. Coliseum – Vancouver, British Columbia, Canada.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
     </main>
+  </header>
+  <body class="bgcolor">
     <footer>
       <div class="redes">
         <a href="https://www.facebook.com/thedoors" target="_blank"
@@ -66,6 +149,11 @@
         ></a>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/b5bdb09317.js"
       crossorigin="anonymous"
