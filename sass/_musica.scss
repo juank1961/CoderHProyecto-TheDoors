@@ -1,0 +1,59 @@
+.df-musica {
+    display: flex;
+    justify-content: center;
+  }
+    .disco-2 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid #000000;
+    margin: 15px;
+    align-items: center;
+    justify-items: center;
+    background-color: #beb7b7;
+    height: auto;
+    img {
+        width: 300px;
+        height: 250px;
+        position: relative;
+      }
+      f1 {
+        display: flex;
+      }
+      c1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 19px;
+        background-color: #fdfdfd;
+         }
+      f2 {
+        display: flex;
+        }  
+      c2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 19px;
+        justify-content: center;
+        background-color: #fdfdfd;
+           }
+      c3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 19px;
+        background-color: #fdfdfd;
+           }
+      c4 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 19px;
+        background-color: #fdfdfd;
+        height: auto;
+          }
+
+  }
+  

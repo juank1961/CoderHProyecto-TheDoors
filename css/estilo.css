@@ -1,4 +1,213 @@
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+.df-b {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid #000000;
+  margin: 15px;
+  align-items: center;
+  justify-items: center;
+  background-color: #beb7b7;
+}
+
+.f-c1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  padding: 5px;
+  background-color: #fdfdfd;
+  padding-bottom: opx;
+}
+
+.f-i1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: #beb7b7;
+}
+
+/*titulo*/
+header nav ul li {
+  display: inline-block;
+  color: rgb(213, 221, 93);
+  margin: 5px;
+  font-family: "Merriweather", serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bruno Ace SC", cursive;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+header nav ul li:hover {
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  background-color: #a13333;
+  color: rgb(213, 221, 93);
+  font-family: "Bruno Ace SC", cursive;
+  font-weight: 100;
+}
+
+header nav div img {
+  width: 100%;
+  height: 600px;
+}
+
+section .contenedor-imagen {
+  width: 300px;
+  height: 300px;
+}
+
+.t-index {
+  padding: 15px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/***footer***/
+.redes {
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.redes a i {
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.redes a i:hover {
+  transform: scale(1.5);
+  transition: all 1s ease;
+}
+
+/***fin footer***/
+.df-main {
+  display: flex;
+  margin: 50px;
+  padding: 20px;
+}
+
+.conte-1 div img {
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.conte-1 {
+  display: flex;
+  border: 2px solid #000000;
+  padding: 50px;
+  margin-left: 100px;
+  margin-right: 150px;
+}
+
+.conte-1 div li {
+  position: relative;
+  font-size: 20px;
+}
+
+.conte-1 div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px;
+}
+
+.f-c {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+}
+
+.bg-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 70px;
+  justify-items: center;
+}
+
+.v-media {
+  width: 320px;
+}
+
+.df-musica {
+  display: flex;
+  justify-content: center;
+}
+
+.disco-2 div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid #000000;
+  margin: 15px;
+  align-items: center;
+  justify-items: center;
+  background-color: #beb7b7;
+  height: auto;
+}
+.disco-2 div img {
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+.disco-2 div f1 {
+  display: flex;
+}
+.disco-2 div c1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 19px;
+  background-color: #fdfdfd;
+}
+.disco-2 div f2 {
+  display: flex;
+}
+.disco-2 div c2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+  justify-content: center;
+  background-color: #fdfdfd;
+}
+.disco-2 div c3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 19px;
+  background-color: #fdfdfd;
+}
+.disco-2 div c4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 19px;
+  background-color: #fdfdfd;
+  height: auto;
+}
 
 * {
   margin: 0;
@@ -16,206 +225,6 @@ body {
   background-color: #a13333;
 }
 
-/*titulo*/
-header nav ul li {
-  display: inline-block;
-  color: rgb(213, 221, 93);
-  margin-left: 130px;
-  font-family: "Merriweather", serif;
-  padding: 5px;
-  margin-top: 50px;
-}
-header nav ul li {
-  font-size: 35px;
-}
-header nav ul li:hover {
-  transform: scale(1.5);
-  transition: all 1s ease;
-}
-header h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 60px;
-  background-color: #a13333;
-  color: rgb(213, 221, 93);
-  font-family: "Bruno Ace SC", cursive;
-  font-weight: 100;
-}
-header nav div img {
-  width: 100%;
-  height: 600px;
-}
-section .contenedor-imagen {
-  width: 300px;
-  height: 300px;
-}
-.baner {
-  min-width: 80vh;
-}
-/**PAGINA BIOGRAFIA**/
-
-.df-b {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 30px;
-  border: 2px solid #000000;
-  margin: 15px;
-  padding: 50px;
-  margin-left: 100px;
-  margin-right: 150px;
-}
-.f-c1 {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  justify-content: center;
-  font-size: 19px;
-}
-.f-i1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px;
-  padding: 10px;
-  width: 300px;
-  height: 250px;
-  margin-left: 70px;
-  margin-top: 150px;
-}
-/**FIN PAGINA BIOGRAFIA**/
-
-/**PAGINA SHOWS**/
-.df-main {
-  display: flex;
-  margin: 50px;
-  padding: 20px;
-}
-.conte-1 div img {
-  width: 300px;
-  height: 200px;
-  margin-left: 20px;
-}
-.conte-1 {
-  display: flex;
-  border: 2px solid #000000;
-  margin: 15px;
-  padding: 50px;
-  margin-left: 100px;
-  margin-right: 150px;
-}
-.conte-1 div li {
-  position: relative;
-  font-size: 20px;
-}
-.conte-1 div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 50px;
-}
-.f-c {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 19px;
-}
-/**FIN PAGINA SHOWS**/
-
-/**PAGINA MUSICA**/
-.df-musica {
-  display: flex;
-  justify-content: space-around;
-}
-.disco-2 div img {
-  width: 300px;
-  height: 250px;
-  position: relative;
-}
-.disco-2 div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 50px;
-  border: 2px solid #000000;
-  margin: 50px;
-  padding: 50px;
-  margin-left: 100px;
-  margin-right: 150px;
-}
-.f1 {
-  display: flex;
-}
-.c1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 19px;
-}
-.f2 {
-  display: flex;
-}
-.c2 {
-  display: flex;
-  flex-direction: column;
-  font-size: 19px;
-  align-items: center;
-  justify-content: center;
-}
-.c3 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 19px;
-}
-.c4 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 19px;
-}
-/**FIN PAGINA MUSICA**/
-
-/**PAGINA VIDEO**/
-.bg-video {
-  display: flex;
-  min-width: 70vh;
-  align-items: center;
-  border: 2px solid #000000;
-  padding: 50px;
-  margin: 10px 10px 10px 10px;
-  margin-bottom: 70px;
-}
-/**FIN PAGINA VIDEO**/
-
-/***footer***/
-.redes {
-  display: flex;
-  text-align: center;
-  justify-content: flex-end;
-  align-items: center;
-}
-.redes a i {
-  font-size: 25px;
-  text-align: center;
-  padding: 5px 10px;
-}
-.redes a i:hover {
-  transform: scale(1.5);
-  transition: all 1s ease;
-}
-/***fin footer***/
-
-/***boostrap***/
 .text-primary {
   color: #e8f802 !important;
   display: flex;
@@ -226,22 +235,73 @@ section .contenedor-imagen {
   color: rgb(213, 221, 93);
   font-weight: 100;
 }
+
 .text-danger {
   font-size: 30px;
 }
+
 .jc-modi {
   justify-content: center;
-  align-items: center;  
-}
-.c-letra {
-  color: rgb(232, 248, 2) !important;
-  font-family: "Merriweather", serif;
-  font-size: 35px;
-  margin-left: 50px;
-  padding: px;
-  margin-top: 50px;
-}
-.bgcolor {
-  background-color: #a13333 !important;
+  align-items: center;
 }
 
+.c-letra {
+  color: rgb(232, 248, 2);
+  font-family: "BRUNO Ace SC", cursive;
+  font-size: 35px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.bgcolor {
+  background-color: #a13333;
+}
+
+.c-imagen {
+  width: 98vw;
+  padding: 10px;
+}
+
+@media screen and (min-with: 320px) and (max-with: 600px) {
+  header h1 {
+    text-align: center;
+  }
+  header nav ul li {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "BRUNO Ace SC", cursive;
+  }
+  ul {
+    padding: 0;
+  }
+  .df-b {
+    grid-template-rows: repeat(8, min-content);
+    padding: 15px;
+    margin: 0;
+  }
+  .disco-2 div {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 8;
+  }
+  .v-media {
+    width: 320px;
+    height: 600px;
+  }
+  .df-b {
+    width: 320px;
+    height: 600px;
+    grid-column: 1fr;
+  }
+  .c3 {
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

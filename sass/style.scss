@@ -1,0 +1,113 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+//pagina biografia
+@import "biografia" ;
+//pagina inicio
+@import "inicio" ;
+//pagina shows
+@import "shows" ;
+//pagina video
+@import "video" ;
+//pagina musica
+@import "musica" ;
+
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:active {
+  text-decoration: none;
+  color: rgb(232, 248, 2);
+}
+
+body {
+  background-color: #a13333;
+}
+//boostrap
+.text-primary {
+  color: #e8f802 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px !important;
+  background-color: #a13333;
+  color: rgb(213, 221, 93);
+  font-weight: 100;
+}
+.text-danger {
+  font-size: 30px;
+}
+.jc-modi {
+  justify-content: center;
+  align-items: center;  
+}
+.c-letra {
+  color: rgb(232, 248, 2) ;
+  font-family: "BRUNO Ace SC", cursive;
+  font-size: 35px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.bgcolor {
+  background-color: #a13333 ;
+}
+
+.c-imagen {
+  width: 98vw;
+  padding: 10px;
+}
+//fin de boostrap
+
+//media
+@media screen and (min-with: 320px) and (max-with: 600px) { 
+  
+  header h1{
+    text-align: center;
+  }
+  header nav ul li{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "BRUNO Ace SC", cursive;
+  }
+  ul{
+    padding: 0;
+  }
+  .df-b {
+    
+    grid-template-rows: repeat(8, min-content);
+    padding: 15px;
+    margin: 0;
+  }
+  .disco-2 div{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        grid-template-rows: 8 ;
+  }
+  .v-media{
+  width: 320px;
+  height: 600px;
+    }
+    .df-b {
+      width: 320px;
+      height: 600px;
+      grid-column: 1fr;
+    }
+    .c3 {
+      height: auto;
+    }
+}
+//fin de media
+
+
+
+
