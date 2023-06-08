@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
 .df-b {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   border: 2px solid #000000;
   border-radius: 15px;
@@ -25,8 +24,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-items: center;
   height: 230px;
-  background-color: #beb7b7;
+  flex-direction: column;
+  padding: 0 0 0 250px;
 }
 
 /*titulo*/
@@ -173,7 +174,7 @@ header nav div img {
   padding: 10px;
   text-align: center;
   font-family: "Bruno Ace SC", cursive;
-  font-size: 12px;
+  font-size: 10px;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -191,13 +192,21 @@ header nav div img {
   text-align: center;
   width: 250px;
 }
+.df-main-contacto .label .t-area {
+  border-radius: 25px;
+  width: 250px;
+  padding: 5px;
+}
 .df-main-contacto .input {
-  display: block;
   width: 300px;
   border-radius: 5px;
   margin-top: 10px 0;
   text-align: center;
   padding: 5px;
+  width: 250px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .df-musica {
@@ -206,7 +215,6 @@ header nav div img {
 }
 
 .disco-2 div {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   border: 2px solid #000000;
   border-radius: 15px;
@@ -221,6 +229,7 @@ header nav div img {
   height: 250px;
   position: relative;
   border-radius: 15px;
+  padding: 15px 15px 15px 15px;
 }
 .disco-2 div f1 {
   display: flex;
@@ -350,6 +359,8 @@ body {
     width: 320px;
     height: 600px;
     grid-column: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 8;
   }
   .c3 {
     height: auto;

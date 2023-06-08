@@ -26,7 +26,7 @@
     padding: 10px;
     text-align: center;
     font-family: "Bruno Ace SC", cursive;
-    font-size: 12px;
+    font-size: 10px;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -46,20 +46,27 @@
       color: black;
       text-align: center;
       width: 250px;
+      .t-area{
+        border-radius: 25px;
+        width: 250px;
+        padding: 5px;
+      }
          
 
     }
     .input{
-      display: block;
       width: 300px;
       border-radius: 5px;
       margin-top: 10px 0; 
       text-align: center;
       padding: 5px;
-
-
-
+      width: 250px;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    
     }
+   
 }
 
 

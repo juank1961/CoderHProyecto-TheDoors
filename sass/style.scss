@@ -63,7 +63,7 @@ body {
 //fin de boostrap
 
 //media queries/////
-@media screen and (min-with: 320px) and (max-with: 600px) { 
+@media screen and (min-with: 320px) and (max-with: 600px){
   
   header h1{
     text-align: center;
@@ -101,6 +101,8 @@ body {
       width: 320px;
       height: 600px;
       grid-column: 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 8 ;
     }
     .c3 {
       height: auto;
@@ -109,8 +111,8 @@ body {
     .main-datos{
       width: 50vw;
     }
-  }
     
+  }
 //fin de media
 
 
