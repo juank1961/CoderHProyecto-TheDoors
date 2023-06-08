@@ -62,7 +62,7 @@ body {
 }
 //fin de boostrap
 
-//media
+//media queries/////
 @media screen and (min-with: 320px) and (max-with: 600px) { 
   
   header h1{
@@ -91,7 +91,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-        grid-template-rows: 8 ;
+     grid-template-rows: 8 ;
   }
   .v-media{
   width: 320px;
@@ -104,8 +104,13 @@ body {
     }
     .c3 {
       height: auto;
+      
     }
-}
+    .main-datos{
+      width: 50vw;
+    }
+  }
+    
 //fin de media
 
 

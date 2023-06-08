@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 2px solid #000000;
+    border-radius: 15px;
     margin: 15px;
     align-items: center;
     justify-items: center;
@@ -15,6 +16,7 @@
         width: 300px;
         height: 250px;
         position: relative;
+        border-radius: 15px;
       }
       f1 {
         display: flex;

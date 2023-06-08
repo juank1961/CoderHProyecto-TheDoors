@@ -1,12 +1,67 @@
-.bg-video {
-    display: flex;
+  .v-media{
+  width: 320px;
+  display: flex;
     justify-content: center ;
     align-items: center;
     padding: 5px;
     margin-bottom: 70px;
     justify-items: center;
-  }
-  .v-media{
-  width: 320px;
+    border-radius: 15px;
   
   }
+///// contacto ////
+.df-main-contacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+  
+    .main-datos{
+    background-color:#beb7b7 ;
+    width: 300px;
+    height: 400px;
+    margin: 10px ;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Bruno Ace SC", cursive;
+    font-size: 12px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+        
+    }
+    .form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+
+    }
+    .label{
+      color: black;
+      text-align: center;
+      width: 250px;
+         
+
+    }
+    .input{
+      display: block;
+      width: 300px;
+      border-radius: 5px;
+      margin-top: 10px 0; 
+      text-align: center;
+      padding: 5px;
+
+
+
+    }
+}
+
+
+
+

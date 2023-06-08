@@ -14,7 +14,7 @@ header nav ul li {
     }
  
   header nav ul li:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 1s ease
   }
   header h1 {
@@ -28,17 +28,32 @@ header nav ul li {
     font-weight: 100;
   }
   header nav div img {
-    width: 100%;
+    width: 50vw;
     height: 600px;
+    
   }
-  section .contenedor-imagen {
+  .c-imagen {
     width: 300px;
-    height: 300px;
+    
+    border-radius: 25px;
+    
   }
-  .t-index{
-    padding: 15px;
-    font-size: 20px;
-    margin: 10px;
+  
+    
+    .d-flex{
+    background-color:#beb7b7 ;
+    border: 2px #000000;
+    border-radius: 15px;
+    padding: 25px;
+    gap: 30px;   
+    .t-inicio{
+      padding: 15px;
+      font-size: 20px;
+      margin: 10px;
+      background-color:#ffffff ;
+      border-radius: 15px;
+    }
+  
   }
   /***footer***/
 .redes {
@@ -57,3 +72,5 @@ header nav ul li {
     transition: all 1s ease;
   }
   /***fin footer***/
+
+  
